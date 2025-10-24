@@ -38,3 +38,37 @@ When requirements are well-defined, teams can more accurately estimate the time,
 
 ### 5. Enhances Quality and Customer Satisfaction  
 Well-analyzed and validated requirements ensure that the end product performs as expected, meets user needs, and delivers a high-quality experience — resulting in greater stakeholder satisfaction.
+
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities that help identify, define, and validate what a software system should do. These activities ensure that all requirements are clear, feasible, and aligned with stakeholder expectations.
+
+### 1. Requirement Gathering 🗂️
+- Collects detailed information from stakeholders about their needs and expectations.  
+- Common techniques include **interviews**, **surveys**, **workshops**, **observation**, and **document analysis**.  
+- Helps in forming the foundation for all subsequent activities in the analysis process.
+
+### 2. Requirement Elicitation ✍️
+- Focuses on refining and clarifying the gathered information.  
+- Techniques include **brainstorming sessions**, **focus groups**, and **prototyping** to uncover hidden requirements.  
+- Ensures that all stakeholders have a shared understanding of the system’s objectives.
+
+### 3. Requirement Documentation 📚
+- Involves writing detailed and structured descriptions of both functional and non-functional requirements.  
+- Common formats include **Software Requirement Specification (SRS)** documents, **user stories**, and **use case diagrams**.  
+- Serves as the official reference for designers, developers, and testers.
+
+### 4. Requirement Analysis and Modeling 📊
+- Analyzes, prioritizes, and validates the gathered requirements to ensure feasibility and alignment with project goals.  
+- Uses models such as **data flow diagrams (DFD)**, **entity-relationship diagrams (ERD)**, and **use case models** to visualize and understand system behavior.  
+- Helps in identifying dependencies, conflicts, and technical constraints.
+
+### 5. Requirement Validation ✅
+- Ensures that the documented requirements accurately represent stakeholder needs.  
+- Involves **reviews**, **walkthroughs**, and **acceptance criteria** definition.  
+- Establishes **traceability matrices** to confirm that each requirement is addressed during design, development, and testing.
+
+---
+
+Together, these activities form the backbone of a successful requirement analysis process, ensuring that the final product meets user expectations and business goals.
