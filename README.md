@@ -72,3 +72,47 @@ Requirement Analysis involves several structured activities that help identify, 
 ---
 
 Together, these activities form the backbone of a successful requirement analysis process, ensuring that the final product meets user expectations and business goals.
+
+
+## Types of Requirements
+
+In software development, requirements are broadly categorized into **Functional** and **Non-functional** requirements.  
+Both are essential to define **what** the system should do and **how** it should perform.
+
+---
+
+### 🧩 Functional Requirements
+
+**Definition:**  
+Functional requirements specify the core operations and behaviors that the system must perform.  
+They describe *what* the system should do in response to user interactions or specific conditions.
+
+**Examples for a Property Booking Management System:**
+- **User Registration:** Users should be able to create an account with personal details and login credentials.  
+- **Property Search:** Users can search for properties using filters such as location, price, and availability.  
+- **Booking System:** Users should be able to select dates, confirm bookings, and view their booking history.  
+- **User Authentication:** Secure login and logout functionalities must be implemented.  
+- **Property Listings:** Display properties with images, descriptions, and pricing details.  
+- **Payment Integration:** Allow users to complete bookings through supported payment gateways.  
+
+These requirements define the **core functionality** of the system that directly interacts with users.
+
+---
+
+### ⚙️ Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements define *how* the system should perform its functions.  
+They focus on the system’s quality attributes such as performance, security, scalability, and usability.
+
+**Examples for a Property Booking Management System:**
+- **Performance:** Pages should load within 2 seconds, even with up to 1000 concurrent users.  
+- **Security:** Implement data encryption, secure login mechanisms, and protect against vulnerabilities like SQL injection.  
+- **Scalability:** The system must be capable of handling growth in user traffic and database size without performance degradation.  
+- **Usability:** The interface should be user-friendly, intuitive, and responsive across devices.  
+- **Reliability:** The system should have a minimum uptime of 99.9% and include automated backup and recovery mechanisms.  
+- **Maintainability:** The codebase should follow best practices for modularity and documentation to simplify future updates.
+
+---
+
+Functional and non-functional requirements work together to ensure that the system not only meets user needs but also performs efficiently and reliably under real-world conditions.
