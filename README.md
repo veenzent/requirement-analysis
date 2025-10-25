@@ -162,3 +162,42 @@ Below is the visual representation of the use case diagram:
 ---
 
 This diagram provides a clear overview of **how users interact with the system**, ensuring that developers understand the **core functionalities** and relationships before moving into design and implementation.
+
+## Acceptance Criteria
+
+### ✅ What is Acceptance Criteria?
+**Acceptance Criteria** are the specific conditions or requirements that a software feature must meet for it to be accepted by stakeholders, product owners, or end-users.  
+They define **what success looks like** for a particular functionality, ensuring that both the development team and stakeholders have a shared understanding of when a feature is complete and functioning as intended.
+
+---
+
+### 💡 Importance of Acceptance Criteria
+- **Ensures Clarity:** Establishes a clear understanding of feature expectations and outcomes.  
+- **Improves Quality Assurance:** Acts as a reference point for testing and validation to confirm that all requirements are met.  
+- **Enhances Communication:** Aligns developers, testers, and stakeholders on the definition of “done.”  
+- **Reduces Ambiguity:** Prevents misinterpretation of requirements and scope creep during development.  
+- **Supports Traceability:** Links requirements to specific, testable results for accountability and progress tracking.
+
+---
+
+### 🧾 Example: Acceptance Criteria for the Checkout Feature
+
+**Feature:** *Checkout Process in Booking Management System*
+
+**User Story:**  
+_As a registered user, I want to securely complete my booking and payment online so that I can confirm my reservation instantly._
+
+**Acceptance Criteria:**
+1. Users must be able to review their booking summary (property details, dates, total price) before payment.  
+2. The system should support multiple payment methods (e.g., credit/debit card, PayPal).  
+3. Payment processing must be encrypted and handled securely.  
+4. Upon successful payment, the user should receive a **booking confirmation message** and a **confirmation email** within 2 minutes.  
+5. The system should prevent users from submitting duplicate payments.  
+6. If payment fails, the system should display an appropriate error message and allow retry.  
+7. All successful transactions must be logged for audit purposes.
+
+---
+
+### 🎯 Summary
+Defining **Acceptance Criteria** helps ensure that every feature is **measurable, testable, and aligned** with stakeholder expectations. It bridges the gap between **requirements** and **validation**, ensuring the final product truly meets user needs.
+
