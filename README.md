@@ -116,3 +116,49 @@ They focus on the system’s quality attributes such as performance, security, s
 ---
 
 Functional and non-functional requirements work together to ensure that the system not only meets user needs but also performs efficiently and reliably under real-world conditions.
+
+
+## Use Case Diagrams
+
+### 🧠 What are Use Case Diagrams?
+Use Case Diagrams are visual representations that illustrate how different **users (actors)** interact with a system to achieve specific **goals (use cases)**.  
+They form an essential part of Requirement Analysis by helping teams understand **system functionality** from a user’s perspective.
+
+---
+
+### 🎯 Benefits of Use Case Diagrams
+- **Clarifies Functional Requirements:** Shows what the system should do from the user’s point of view.  
+- **Improves Communication:** Bridges the gap between stakeholders, developers, and testers by providing a simple visual overview.  
+- **Identifies Actors and Interactions:** Helps identify all the user roles and their interactions with different system components.  
+- **Supports Design and Testing:** Serves as a foundation for creating test cases and designing the system architecture.
+
+---
+
+### 🧩 Use Case Diagram for Booking Management System
+
+Below is an example of a **Use Case Diagram** for the *Property Booking Management System* that visualizes the main interactions between users and the system.
+
+#### **Actors:**
+- **Guest:** Can browse and search for properties.  
+- **Registered User:** Can book, view, and manage bookings.  
+- **Admin:** Manages property listings and oversees user activities.
+
+#### **Use Cases:**
+- Search for properties  
+- View property details  
+- Register / Login  
+- Book property  
+- Manage bookings  
+- Add or remove listings (Admin)  
+- Approve or cancel bookings (Admin)
+
+---
+
+### 🖼️ Use Case Diagram
+Below is the visual representation of the use case diagram:
+
+![Use Case Diagram - Booking Management System](./alx-booking-uc.png)
+
+---
+
+This diagram provides a clear overview of **how users interact with the system**, ensuring that developers understand the **core functionalities** and relationships before moving into design and implementation.
